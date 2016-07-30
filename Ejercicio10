@@ -1,0 +1,17 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		double a,b,c;
+		Console.WriteLine("Ingresa numero 1");
+		a = Convert.ToDouble(Console.ReadLine());
+		Console.WriteLine("Ingresa numero 2");
+    	b = Convert.ToDouble(Console.ReadLine());
+		Console.WriteLine("Ingresa numero 3");
+    	c = Convert.ToDouble(Console.ReadLine());
+      	Console.Write(a+", "+b+" y "+c+", (x+y) · z es "+c+c+" y x + x · y · z es "+c+c);
+		Console.ReadLine();
+        }
+}
