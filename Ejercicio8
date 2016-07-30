@@ -1,0 +1,22 @@
+using System;
+					
+public class Program
+{
+	public static void Main(String[] args)
+	{
+		int n, i, r;
+		string linea;
+		i=1;
+	Console.Write("escriba el numero que quiere multiplicar");
+	linea=Console.ReadLine();
+	n=int.Parse(linea);
+	while (i<=10) 
+		{
+			r=i*n;
+			Console.Write(n+"*"+i+"="+r);
+			linea=Console.ReadLine();
+			i=i+1;
+		}
+	Console.ReadKey();
+	}
+}
