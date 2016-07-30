@@ -1,0 +1,16 @@
+using System;
+					
+public class suma
+{
+	public static void Main()
+        {
+             Double a,b;
+      Console.WriteLine("Ingresa numero 1");
+      a = Convert.ToDouble(Console.ReadLine());
+      Console.WriteLine("Ingresa numero 2");
+      b = Convert.ToDouble(Console.ReadLine());
+	  Console.WriteLine(b);
+	  Console.WriteLine(a);	  
+      Console.ReadLine();
+        }
+    }
