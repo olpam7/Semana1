@@ -1,0 +1,17 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		double c, Kelvin, Fahrenheit;
+		Console.WriteLine("Ingresa Temperatura a Calcular");
+		c = Convert.ToDouble(Console.ReadLine());
+      	Kelvin= 273.15 + c;
+		Fahrenheit= c * 9/5 + 32;
+      	Console.Write("Temperatura Kelvin es " + Kelvin+"°K");
+		Console.ReadLine();
+		Console.Write("Temperatura Fahrenheit es " + Fahrenheit+"°F");
+		Console.ReadLine();
+		}
+}
