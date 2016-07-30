@@ -1,0 +1,9 @@
+using System;
+					
+public class Hola1
+{
+	public static void Main()
+	{
+		Console.WriteLine("Hola Milton Castellanos, Como te encuentras hoy?");
+	}
+}
