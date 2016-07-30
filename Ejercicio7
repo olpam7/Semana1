@@ -1,0 +1,25 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		double a,b,s,r,m,d;
+      Console.WriteLine("Ingresa numero 1");
+		a = Convert.ToDouble(Console.ReadLine());
+      Console.WriteLine("Ingresa numero 2");
+      b = Convert.ToDouble(Console.ReadLine());
+      s=a+b;
+      r=a-b;
+      m=a*b;
+      d=a/b;
+      Console.Write(a+"+"+b+"="+s);
+		Console.ReadLine();
+		Console.Write(a+"-"+b+"="+r);
+		Console.ReadLine();
+		Console.Write(a+"*"+b+"="+m);
+		Console.ReadLine();
+		Console.Write(a+"/"+b+"="+d);
+		Console.ReadLine();
+        }
+}
