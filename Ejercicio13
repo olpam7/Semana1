@@ -1,0 +1,22 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		double a;
+      	Console.WriteLine("Ingresa numero");
+		a = Convert.ToDouble(Console.ReadLine());
+      	Console.Write(a+""+a+""+a);
+		Console.ReadLine();
+		Console.Write(a+" "+a);
+		Console.ReadLine();
+		Console.Write(a+" "+a);
+		Console.ReadLine();
+		Console.Write(a+" "+a);
+		Console.ReadLine();
+
+		Console.Write(a+""+a+""+a);
+		Console.ReadLine();
+		}
+}
