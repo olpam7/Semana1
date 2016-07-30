@@ -1,0 +1,13 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		double a;
+		Console.WriteLine("Ingresa tu edad");
+		a = Convert.ToDouble(Console.ReadLine());
+		Console.Write("Te ves mayor de "+a);
+		Console.ReadLine();
+        }
+}
