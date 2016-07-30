@@ -1,0 +1,16 @@
+using System;
+					
+public class Division
+{
+	public static void Main()
+        {
+             Double a,b,dividir;
+      Console.WriteLine("Ingresa numero 1 (dividendo)");
+      a = Convert.ToDouble(Console.ReadLine());
+      Console.WriteLine("Ingresa numero 2 (divisor)");
+      b = Convert.ToDouble(Console.ReadLine());
+      dividir=a/b;
+      Console.WriteLine(dividir);              
+        Console.ReadLine();
+        }
+    }
