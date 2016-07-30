@@ -1,0 +1,20 @@
+using System;
+					
+public class Program
+{
+	public static void Main(string[] args)
+	{
+	double a,b,c,d, promedio;
+		Console.WriteLine("Ingresa numero 1");
+      	a = Convert.ToDouble(Console.ReadLine());
+      	Console.WriteLine("Ingresa numero 2");
+      	b = Convert.ToDouble(Console.ReadLine());
+		Console.WriteLine("Ingresa numero 3");
+      	c = Convert.ToDouble(Console.ReadLine());
+      	Console.WriteLine("Ingresa numero 4");
+      	d = Convert.ToDouble(Console.ReadLine());
+		promedio=(a+b+c+d)/4;
+		Console.Write("el promedio es " + promedio);
+		Console.ReadLine();
+	}
+}
